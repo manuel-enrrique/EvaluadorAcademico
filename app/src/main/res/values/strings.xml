@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">EvaluadorAcademico</string>
+    <string name="app_title">Evaluador Académico</string>
+    <string name="app_subtitle">Pon a prueba tus conocimientos de Kotlin, Redes y Bases de Datos.</string>
+    <string name="hero_title">Demuestra lo que sabes</string>
+
+    <!-- Configuración -->
+    <string name="config_title">Configura tu evaluación</string>
+    <string name="config_subtitle">Personaliza la sesión antes de comenzar.</string>
+    <string name="label_student_name">Nombre del estudiante</string>
+    <string name="placeholder_student_name">Ej. Ana Martínez</string>
+    <string name="supporting_student_name">Escribe tu nombre para habilitar el inicio.</string>
+    <string name="name_required">El nombre es obligatorio para comenzar.</string>
+    <string name="label_subject">Materia</string>
+    <string name="label_question_count">Cantidad de preguntas</string>
+    <plurals name="question_count_value">
+        <item quantity="one">%1$d pregunta</item>
+        <item quantity="other">%1$d preguntas</item>
+    </plurals>
+    <string name="question_range_min">3</string>
+    <string name="question_range_max">10</string>
+    <string name="label_strict_mode">Modo estricto</string>
+    <string name="strict_mode_description">Bloquea tu respuesta en cuanto la seleccionas. No podrás cambiarla antes de enviarla.</string>
+    <string name="action_start_quiz">Comenzar evaluación</string>
+
+    <!-- Examen -->
+    <string name="quiz_progress">Pregunta %1$d de %2$d</string>
+    <string name="quiz_score">Aciertos: %1$d</string>
+    <string name="strict_banner_title">Modo estricto activo</string>
+    <string name="strict_banner_message">Tu respuesta se bloquea al seleccionarla y no podrás cambiarla.</string>
+    <string name="action_submit_answer">Enviar respuesta</string>
+    <string name="action_next_question">Siguiente pregunta</string>
+    <string name="action_show_results">Ver resultados</string>
+    <string name="answer_correct_title">¡Respuesta correcta!</string>
+    <string name="answer_incorrect_title">Respuesta incorrecta</string>
+    <string name="answer_correct_was">La respuesta correcta era: %1$s</string>
+    <string name="explanation_title">Explicación</string>
+
+    <!-- Resultados -->
+    <string name="results_title">Resultado final</string>
+    <string name="results_student">Estudiante: %1$s</string>
+    <string name="result_grade_out_of">de 10.0</string>
+    <string name="result_accuracy_label">Porcentaje de aciertos</string>
+    <string name="result_score_label">Aciertos</string>
+    <string name="result_score_value">%1$d de %2$d</string>
+    <string name="result_status_label">Estado</string>
+    <string name="result_status_approved">Aprobado</string>
+    <string name="result_status_failed">Reprobado</string>
+    <plurals name="result_questions_evaluated">
+        <item quantity="one">Evaluación realizada sobre %1$d pregunta.</item>
+        <item quantity="other">Evaluación realizada sobre %1$d preguntas.</item>
+    </plurals>
+    <string name="result_approved_message">¡Felicidades! Alcanzaste el objetivo académico.</string>
+    <string name="result_failed_message">Sigue practicando; puedes intentarlo de nuevo.</string>
+    <string name="result_footer">Métricas calculadas en memoria, sin persistencia ni conexión a Internet.</string>
+    <string name="action_restart_quiz">Reiniciar evaluación</string>
+</resources>
